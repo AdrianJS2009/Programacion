@@ -21,3 +21,37 @@ Proceso Tema0_Ejer17
 		Escribir "";
 	FinPara
 FinProceso
+
+
+//Otra forma de hacer el ejercicio
+
+//Definir altura, asteriscos, espacios, nivel, i Como Entero;
+//
+//Escribir "Dame la altura de tú piramide": Sin Saltar;
+//	Leer altura;
+//	
+//	asteriscos <- (2*altura)-1;
+//	espacios <- 0;
+//	nivel <- 1; // Variable que almacena el nivel en el que me encuentro
+//	
+//	Mientras (nivel <= altura) Hacer
+//		// Espacios por delante
+//		Para i<- Hasta espacios Hacer
+//			Escribir " ";
+//		FinPara
+//		
+//		// Dibujamos astericos
+//		Para i<-1 Hasta asteriscos Hacer
+//			Escribir "*" Sin Saltar;
+//		FinPara
+//		// Salto de linea
+//		Escribir " ";
+//		
+//		//Actualizo variables
+//		espacios <- espacios+1;
+//		asteriscos <- asteriscos -2;
+//		nivel <- nivel +1;
+//		
+//	FinMientras
+//FinMientras
+//		

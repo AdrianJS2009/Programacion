@@ -10,7 +10,7 @@ Proceso Tema0_Ejer14
 	Leer num;
 	
 	//El primer y segundo número siempre son 1.
-	a<- 1;
+	a<- 0;
 	b<- 1;
 	
 	//Los muestro por pantalla
@@ -25,6 +25,8 @@ Proceso Tema0_Ejer14
 		b <- sum; //Muevo lo que está guardado en sum a b.
 	FinPara
 	
+	
+	//Forma de hacerlo sin dependes de dos variables predefinidas con Escribir.
 	
 //	Definir i, sum, num, a, b,c Como Entero;
 //	EScribir "¿Cúantos números de Fibonacci deseas mostrar?";
