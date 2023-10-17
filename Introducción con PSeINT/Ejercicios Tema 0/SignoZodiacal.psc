@@ -31,7 +31,7 @@ Algoritmo SignoZodiacal
             FinSi;
         FinMientras;
 		
-        // Según la fecha de nacimiento asigno un zodiaco u otro.
+        // Según la fecha de nacimiento asigno un zodiaco u otro mediante ifs.
         Si (dia >= 21 Y mes = 3) O (dia <= 19 Y mes = 4) Entonces
 			Escribir nombre, ", tu signo zodiacal es Aries.";
 		FinSi
@@ -59,7 +59,7 @@ Algoritmo SignoZodiacal
 		Si (dia >= 23 Y mes = 9) O (dia <= 22 Y mes = 10) Entonces
 			Escribir nombre, ", tu signo zodiacal es Libra.";
 		FinSi
-								
+		
 		Si (dia >= 23 Y mes = 10) O (dia <= 21 Y mes = 11) Entonces
 			Escribir nombre, ", tu signo zodiacal es Escorpio.";
 		FinSi
