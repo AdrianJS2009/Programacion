@@ -1,7 +1,7 @@
 /*
  * Creación de la clase Coche
  * 
- * @author Adrián Jiménez Santiago
+ * @author Adrián Jim�nez Santiago
  */
 
 public class Coche {
