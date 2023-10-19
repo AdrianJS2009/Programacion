@@ -3,8 +3,8 @@ package practicas;
 import java.util.Scanner;
 
 /**
- * Explicación del código
- * 
+ * Conjunto de ejercicios del Tema 1 indicado en el libro, para mostrarlos se utilizará
+ * un menú para cada uno de ellos.
  * @author Adrián Jiménez Santiago
  */
 
