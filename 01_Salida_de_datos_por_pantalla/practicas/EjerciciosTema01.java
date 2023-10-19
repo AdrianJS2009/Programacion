@@ -52,14 +52,14 @@ public class EjerciciosTema01 {
                     break;
                 case "6": programa.Ejercicio6();
                     break;
-                /* case "7": programa.Ejercicio7();
+                case "7": programa.Ejercicio7();
                     break;
                 case "8": programa.Ejercicio8();
                     break;
                 case "9": programa.Ejercicio9();
                     break;
                 case "10": programa.Ejercicio10();
-                    break; */
+                    break;
                 default: continuar = false;
             }
             
@@ -218,6 +218,31 @@ public class EjerciciosTema01 {
       System.out.println(" ******* ");
       System.out.println("*********");
     }
+
+
+    public void Ejercicio7() {
+      System.out.println("    *    ");
+      System.out.println("   * *   ");
+      System.out.println("  *   *  ");
+      System.out.println(" *     * ");
+      System.out.println("*********");
+    }
+
+    public void Ejercicio8(){
+      System.out.println("*********");
+      System.out.println(" *     * ");
+      System.out.println("  *   *  ");
+      System.out.println("   * *   ");
+      System.out.println("    *    ");
+    }
+    public void Ejercicio9(){
+      System.out.println("*********");
+      System.out.println(" ******* ");
+      System.out.println("  *****  ");
+      System.out.println("   ***   ");
+      System.out.println("    *    ");
+    }
+
   }
 
 
