@@ -16,7 +16,10 @@ public class SalidaFormateada01 {
     System.out.printf("El número %.3f sale exactamente con %d decimales. \n", 50.4, 3);
 
     //Aqui %c imprime en pantalla el equivalente introducido en ASCII, en este caso 83 = S.
-    System.out.printf("Letra: %c. \n,", 83);
+    System.out.printf("Letra: %c. \n", 83);
+
+    //Para ver el orden utilizamos $, 2$ para el segundo argumento, 1$ para el primer argumento
+    System.out.printf("Para ver el segundo argumento: %2$d \nY después el primero: %1$.2f", 23.0, 56);
     
   }
 }
