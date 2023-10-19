@@ -46,9 +46,9 @@ public class EjerciciosTema01 {
                     break;
                 case "3": programa.Ejercicio3();
                     break;
-                /* case "4": programa.Ejercicio4();
+                case "4": programa.Ejercicio4();
                     break;    
-                case "5": programa.Ejercicio5();
+                /* case "5": programa.Ejercicio5();
                     break;
                 case "6": programa.Ejercicio6();
                     break;
@@ -94,6 +94,48 @@ public class EjerciciosTema01 {
       System.out.printf("%-10s  %15s", "Backpack", "Mochila\n");
       System.out.printf("%-10s  %15s", "Bag", "Bolsa\n");
 
+    }
+
+    public void Ejercicio4() {
+
+      System.out.println("--------------------------------------------");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Día", "Horas", "Asignaturas");
+      System.out.println("--------------------------------------------");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Lunes", "15:15-16:15", "FOL");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "16:15-17:15", "FOL");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "17:15-18:15", "FOL");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "18:30-19:30", "Sistemas Informáticos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "19:30-20:30", "Sistemas Informáticos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "20:30-21:15", "Sistemas Informáticos");
+      System.out.println("#######################################################");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Martes", "15:15-16:15", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "16:15-17:15", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "17:15-18:15", "Bases de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "18:30-19:30", "Bases de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "19:30-20:30", "Lenguaje de marcas");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "20:30-21:15", "Lenguaje de marcas");
+      System.out.println("#######################################################");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Miércoles", "15:15-16:15", "Entornos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "16:15-17:15", "Entornos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "17:15-18:15", "Bases de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "18:30-19:30", "Bases de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "19:30-20:30", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "20:30-21:15", "Programación");
+      System.out.println("#######################################################");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Jueves", "15:15-16:15", "Base de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "16:15-17:15", "Base de Datos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "17:15-18:15", "Lenguaje de marcas");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "18:30-19:30", "Lenguaje de marcas");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "19:30-20:30", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "20:30-21:15", "Programación");
+      System.out.println("#######################################################");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "Viernes", "15:15-16:15", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "16:15-17:15", "Programación");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "17:15-18:15", "Entornos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "18:30-19:30", "Sistemas Informáticos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "19:30-20:30", "Sistemas Informáticos");
+      System.out.printf("| %-9s | %-5s | %-10s |\n", "", "20:30-21:15", "Sistemas Informáticos");
+      System.out.println("--------------------------------------------");
     }
   }
 
