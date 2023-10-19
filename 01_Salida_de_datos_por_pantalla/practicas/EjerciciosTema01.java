@@ -46,7 +46,7 @@ public class EjerciciosTema01 {
                     break;
                 case "3": programa.Ejercicio3();
                     break;
-                case "4": programa.Ejercicio4();
+                /* case "4": programa.Ejercicio4();
                     break;    
                 case "5": programa.Ejercicio5();
                     break;
@@ -59,7 +59,7 @@ public class EjerciciosTema01 {
                 case "9": programa.Ejercicio9();
                     break;
                 case "10": programa.Ejercicio10();
-                    break;
+                    break; */
                 default: continuar = false;
             }
             
@@ -77,6 +77,23 @@ public class EjerciciosTema01 {
       System.out.println("Mi nombre es Adrián Jiménez Santiago");
       System.out.println("Vivo en la calle Santa Ana, Cártama");
       System.out.println("Mi número de teléfono es: 154978465");
+    }
+
+    public void Ejercicio3() {
+
+      System.out.println("Inglés                Español");
+      System.out.println("-----------------------------");
+      System.out.printf("%-10s  %15s", "Car", "Coche\n");
+      System.out.printf("%-10s  %15s", "Room", "Habitación\n");
+      System.out.printf("%-10s  %15s", "Desk", "Escritorio\n");
+      System.out.printf("%-10s  %15s", "Wheel", "Rueda\n");
+      System.out.printf("%-10s  %15s", "Window", "Ventana\n");
+      System.out.printf("%-10s  %15s", "Night", "Noche\n");
+      System.out.printf("%-10s  %15s", "Laptop", "Portátil\n");
+      System.out.printf("%-10s  %15s", "Music", "Música\n");
+      System.out.printf("%-10s  %15s", "Backpack", "Mochila\n");
+      System.out.printf("%-10s  %15s", "Bag", "Bolsa\n");
+
     }
   }
 
