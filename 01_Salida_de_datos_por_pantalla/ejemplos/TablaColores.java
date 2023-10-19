@@ -1,4 +1,4 @@
-package ejemplos;
+import colors.ConsoleColors;
 
 /**
  * 

@@ -1,4 +1,8 @@
-package ejemplos;
+/**
+ * Explicación del código
+ * 
+ * @author Adrián Jiménez Santiago
+ */
 
 public class CaracteresEspeciales01 {
   public static void main(String[] args) {

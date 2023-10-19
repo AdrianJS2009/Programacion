@@ -1,5 +1,3 @@
-package ejemplos;
-
 /**
  * 
  Muestra varias palabras en el color que corresponde.

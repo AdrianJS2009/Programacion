@@ -1,4 +1,4 @@
-package ejemplos;
+package colors;
 
 public class ConsoleColors {
   // Reset
