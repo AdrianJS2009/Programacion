@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 /**
  * Conjunto de ejercicios del Tema 1 indicado en el libro, para mostrarlos se
- * utilizará
- * un menú para cada uno de ellos.
+ * utilizará un menú para cada uno de ellos.
  * 
  * @author Adrián Jiménez Santiago
  */
