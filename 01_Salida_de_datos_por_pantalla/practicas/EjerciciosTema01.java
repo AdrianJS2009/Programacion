@@ -239,22 +239,25 @@ public class EjerciciosTema01 {
       System.out.println("                    _______________");
       System.out.println("                    | Programar   |");
       System.out.println("                    | Me divierte |");
-      System.out.println("              ∧＿∧  ￣|/￣￣￣￣￣￣￣");
+      System.out.println("              ∧＿∧   ￣|/￣￣￣￣￣￣");
       System.out.println("            (´・ω・`)");
       System.out.println("          ┌ (_つ/￣￣￣/＿");
       System.out.println("          旦 ＼:/ █  / ");
     }
 
-    public void Ejercicio10(){
-      System.out.println("                    _______________");
-      System.out.println("                    | Programar   |");
-      System.out.println("                    | Me divierte |");
-      System.out.println("              ∧＿∧  ￣|/￣￣￣￣￣￣￣");
-      System.out.println("            (´・ω・`)");
+    public void Ejercicio10() {
+
+      System.out.println("\u001B[34m" + "                    ______________________________" + "\u001B[0m");
+      System.out.println("\u001B[34m" + "                    | " + "\u001B[32m" + "Programar" + "\u001B[34m" + "                   |" + "\u001B[0m");
+      System.out.println("\u001B[34m" + "                    | " + "\u001B[31m" + "Me divierte" + "\u001B[34m" + "                 |" + "\u001B[0m");
+      System.out.println("\u001B[34m" + "                    | " + "\u001B[33m" + "(Con Colores un poco menos)" + "\u001B[34m" + " |" + "\u001B[0m");
+      System.out.println("\u001B[35m" + "              ∧＿∧   ￣|" + "\u001B[0m" + "\u001B[0m /￣￣￣￣￣￣￣￣￣￣￣");
+      System.out.println("\u001B[35m" + "            (´・ω・`)");
       System.out.println("          ┌ (_つ/￣￣￣/＿");
       System.out.println("          旦 ＼:/ █  / ");
-    }
-
+      System.out.println("\u001B[0m");
+  }
+  
     }
 
 
