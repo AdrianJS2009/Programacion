@@ -236,14 +236,26 @@ public class EjerciciosTema01 {
       System.out.println("    *    ");
     }
     public void Ejercicio9(){
-      System.out.println("*********");
-      System.out.println(" ******* ");
-      System.out.println("  *****  ");
-      System.out.println("   ***   ");
-      System.out.println("    *    ");
+      System.out.println("                    _______________");
+      System.out.println("                    | Programar   |");
+      System.out.println("                    | Me divierte |");
+      System.out.println("              ∧＿∧  ￣|/￣￣￣￣￣￣￣");
+      System.out.println("            (´・ω・`)");
+      System.out.println("          ┌ (_つ/￣￣￣/＿");
+      System.out.println("          旦 ＼:/ █  / ");
     }
 
-  }
+    public void Ejercicio10(){
+      System.out.println("                    _______________");
+      System.out.println("                    | Programar   |");
+      System.out.println("                    | Me divierte |");
+      System.out.println("              ∧＿∧  ￣|/￣￣￣￣￣￣￣");
+      System.out.println("            (´・ω・`)");
+      System.out.println("          ┌ (_つ/￣￣￣/＿");
+      System.out.println("          旦 ＼:/ █  / ");
+    }
+
+    }
 
 
   
