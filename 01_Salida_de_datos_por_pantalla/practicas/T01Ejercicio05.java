@@ -4,8 +4,8 @@
  * @author Adrián Jiménez Santiago
  */
 
-public class Ejercicio5 {
-  
+public class T01Ejercicio05 {
+
   public static void main(String[] args) {
     System.out.println("\033[0m"); // Reseteo de color
     System.out.println("--------------------------------------------");

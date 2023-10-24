@@ -4,7 +4,7 @@
  * @author Adrián Jiménez Santiago
  */
 
-public class Ejercicio6 {
+public class T01Ejercicio06 {
   public static void main(String[] args) {
     System.out.println("    *    ");
     System.out.println("   ***   ");
@@ -12,5 +12,5 @@ public class Ejercicio6 {
     System.out.println(" ******* ");
     System.out.println("*********");
   }
-  
+
 }

@@ -4,7 +4,7 @@
  * @author Adrián Jiménez Santiago
  */
 
-public class Ejercicio4 {
+public class T01Ejercicio04 {
   public static void main(String[] args) {
     
     System.out.println("--------------------------------------------");

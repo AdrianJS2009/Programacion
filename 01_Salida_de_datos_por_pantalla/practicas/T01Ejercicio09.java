@@ -4,7 +4,7 @@
  * @author Adrián Jiménez Santiago
  */
 
-public class Ejercicio9 {
+public class T01Ejercicio09 {
   public static void main(String[] args) {
     System.out.println("                    _______________");
     System.out.println("                    | Programar   |");

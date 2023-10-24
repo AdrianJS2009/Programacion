@@ -1,11 +1,12 @@
 /**
- * Muestro la misma escena que el ejercicio anterior, ahora está coloreado pero no se
+ * Muestro la misma escena que el ejercicio anterior, ahora está coloreado pero
+ * no se
  * lo está pasando tan bien como antes.
  * 
  * @author Adrián Jiménez Santiago
  */
 
-public class Ejercicio10 {
+public class T01Ejercicio10 {
   public static void main(String[] args) {
     System.out.println("\u001B[34m" + "                    ______________________________" + "\u001B[0m");
     System.out.println("\u001B[34m" + "                    | " + "\u001B[32m" + "Programar" + "\u001B[34m"
