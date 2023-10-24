@@ -4,7 +4,7 @@
  * 
  * @author Adrián Jiménez Santiago
  */
-public class Ejercicio1 {
+public class T02Ejercicio01 {
   public static void main(String[] args) {
     int x, y;
     x = 144;
@@ -21,10 +21,7 @@ public class Ejercicio1 {
     System.out.println("La resta de ambos valores es: " + resta);
     System.out.println("La división de ambos valores es: " + division);
     System.out.println("La multiplicación de ambos valores es: " + multiplicacion);
-    
-
 
   }
 
-  
 }
