@@ -14,6 +14,5 @@ public class T03Ejercicio09 {
 
     System.out.println("El volumen del cono es: " + volumen);
 
-    scanner.close();
   }
 }
