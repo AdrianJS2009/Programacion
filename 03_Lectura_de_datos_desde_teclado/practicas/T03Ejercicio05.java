@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Explicación del código
+ * Cáclculo de el área de un rectángulo mediante datos recogidos por teclado.
  * 
  * @author Adrián Jiménez Santiago
  */

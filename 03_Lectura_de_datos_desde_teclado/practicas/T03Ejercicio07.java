@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Explicación del código
+ * Cálculo de la base imponible mediante datos recogidos por teclado.
  * 
  * @author Adrián Jiménez Santiago
  */
@@ -15,7 +15,6 @@ public class T03Ejercicio07 {
     double impuesto = baseImponible * 0.21;
     double totalFactura = baseImponible + impuesto;
 
-    // Imprime el resultado
     System.out.println("Base Imponible: €" + baseImponible);
     System.out.println("Impuesto (21%): €" + impuesto);
     System.out.println("Total de la factura: €" + totalFactura);

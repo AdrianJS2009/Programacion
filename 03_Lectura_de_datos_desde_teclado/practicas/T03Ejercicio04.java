@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 /**
- * Explicación del código
+ * Uso de sumas, restas, multiplicaciones y divisiones mediante dos números
+ * recodigos por teclado.
  * 
  * @author Adrián Jiménez Santiago
  */

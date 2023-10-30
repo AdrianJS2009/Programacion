@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Explicación del código
+ * Conversión de pesetas a euros mediante datos recogidos por teclado
  * 
  * @author Adrián Jiménez Santiago
  */

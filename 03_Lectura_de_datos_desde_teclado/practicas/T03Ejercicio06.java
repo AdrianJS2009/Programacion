@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Explicación del código
+ * Cálculo del área de un triángulo mediante datos recogidos por teclado.
  * 
  * @author Adrián Jiménez Santiago
  */
