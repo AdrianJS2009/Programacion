@@ -10,7 +10,7 @@ public class T04Ejercicio01 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Dime un dia de la semana para saber que asignatura tienes a primera hora");
+    System.out.println("Dime un dia de autla semana para saber que asignatura tienes a primera hora");
     String dia = sc.nextLine();
     dia.toLowerCase();
 

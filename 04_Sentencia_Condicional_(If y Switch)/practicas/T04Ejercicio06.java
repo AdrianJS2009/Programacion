@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+/**
+ * Realiza un programa que calcule el tiempo que tardará en caer un objeto desde
+ * una altura h.
+ * 
+ * @author Adrián Jiménez Santiago
+ */
+public class T04Ejercicio06 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    double g = 9.81;
+
+    System.out.println("Vamos a calcular el tiempo que tarda en caer un objeto, indicame una altura:");
+    float altura = sc.nextFloat();
+
+    double resultado = Math.sqrt(2 * altura / g);
+
+    System.out.println("El objeto tarda en caer: " + resultado + " segundos");
+
+  }
+}
