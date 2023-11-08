@@ -39,7 +39,7 @@ public class Problema05 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("CALCULADORA DE TIEMPO");
+    System.out.println("\u001B[1mCALCULADORA DE TIEMPO\u001B[0m");
     System.out.println("=====================");
 
     // Pregunto por la cantidad de dias
