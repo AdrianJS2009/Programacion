@@ -20,7 +20,7 @@ public class T04Ejercicio04 {
     if (horasTrabajadas >= 40) {
       sueldoSemanal = horasTrabajadas * 12;
     } else {
-      sueldoSemanal = (40 * 20) + ((horasTrabajadas - 40) * 16);
+      sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16);
     }
     System.out.println("El sueldo que corresponde es de " + sueldoSemanal + " €");
 

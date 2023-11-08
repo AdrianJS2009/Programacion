@@ -25,17 +25,11 @@ public class T04Ejercicio08 {
 
     if (resultado >= 0 && resultado <= 4) {
       System.out.println("Tu media es INSUFICIENTE");
-    }
-
-    if (resultado >= 5 && resultado < 6) {
+    } else if (resultado >= 5 && resultado < 6) {
       System.out.println("Tu media es SUFICIENTE");
-    }
-
-    if (resultado >= 6 && resultado <= 7) {
+    } else if (resultado >= 6 && resultado <= 7) {
       System.out.println("Tu media es BIEN");
-    }
-
-    if (resultado >= 7 && resultado <= 9) {
+    } else if (resultado >= 7 && resultado <= 9) {
       System.out.println("Tu media es NOTABLE");
     } else {
       System.out.println("Tu media es SOBRESALIENTE");
