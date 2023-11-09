@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class T04Ejercicio19 {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
     System.out.print("Introduce un número entero: ");
-    int numero = scanner.nextInt();
+    int numero = sc.nextInt();
 
     int digitos = String.valueOf(Math.abs(numero)).length();
 
@@ -21,6 +21,6 @@ public class T04Ejercicio19 {
       System.out.println("El número tiene " + digitos + " dígitos.");
     }
 
-    scanner.close();
+    sc.close();
   }
 }

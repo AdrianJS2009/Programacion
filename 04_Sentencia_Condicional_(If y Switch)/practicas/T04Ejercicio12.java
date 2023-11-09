@@ -83,6 +83,8 @@ public class T04Ejercicio12 {
     }
 
     System.out.println("Tu puntuación ha sido: " + puntuacion);
+
+    sc.close();
   }
 
 }

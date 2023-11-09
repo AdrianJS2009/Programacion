@@ -23,5 +23,7 @@ public class T04Ejercicio13 {
     int medio = (num1 + num2 + num3) - mayor - menor;
 
     System.out.println("Los números ordenados de menor a mayor son: " + menor + ", " + medio + ", " + mayor);
+
+    sc.close();
   }
 }

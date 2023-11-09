@@ -7,11 +7,11 @@ import java.util.Scanner;
  */
 public class T04Ejercicio15 {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in); // Creamos un objeto Scanner para leer la entrada del teclado.
+    Scanner sc = new Scanner(System.in); // Creamos un objeto Scanner para leer la entrada del teclado.
 
     System.out.print("Introduce el carácter para la pirámide: "); // Solicitamos al usuario que ingrese un carácter.
-    char caracter = scanner.next().charAt(0); // Leemos el primer carácter ingresado por el usuario y lo almacenamos en
-                                              // 'caracter'.
+    char caracter = sc.next().charAt(0); // Leemos el primer carácter ingresado por el usuario y lo almacenamos en
+                                         // 'caracter'.
 
     System.out.println("Selecciona la dirección del vértice de la pirámide:"); // Mostramos un menú para que el usuario
                                                                                // elija la dirección.
@@ -20,7 +20,7 @@ public class T04Ejercicio15 {
     System.out.println("3. Izquierda");
     System.out.println("4. Derecha");
 
-    int opcion = scanner.nextInt(); // Leemos la opción seleccionada por el usuario.
+    int opcion = sc.nextInt(); // Leemos la opción seleccionada por el usuario.
 
     switch (opcion) { // Utilizamos una estructura de control switch para determinar la dirección de
                       // la pirámide.
@@ -53,6 +53,6 @@ public class T04Ejercicio15 {
         System.out.println("Opción no válida"); // Imprimimos un mensaje si el usuario elige una opción no válida.
     }
 
-    scanner.close();
+    sc.close();
   }
 }

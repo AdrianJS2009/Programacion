@@ -15,13 +15,13 @@ import java.util.Scanner;
  */
 public class T04Ejercicio21 {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
     System.out.print("Nota del primer control: ");
-    double nota1 = scanner.nextDouble();
+    double nota1 = sc.nextDouble();
 
     System.out.print("Nota del segundo control: ");
-    double nota2 = scanner.nextDouble();
+    double nota2 = sc.nextDouble();
 
     double media = (nota1 + nota2) / 2;
 
@@ -29,7 +29,7 @@ public class T04Ejercicio21 {
       System.out.println("Tu nota de Programación es " + media);
     } else {
       System.out.print("¿Cuál ha sido el resultado de la recuperación? (apto/no apto): ");
-      String resultadoRecuperacion = scanner.next();
+      String resultadoRecuperacion = sc.next();
 
       if (resultadoRecuperacion.equalsIgnoreCase("apto")) {
         System.out.println("Tu nota de Programación es 5");
@@ -38,6 +38,6 @@ public class T04Ejercicio21 {
       }
     }
 
-    scanner.close();
+    sc.close();
   }
 }
