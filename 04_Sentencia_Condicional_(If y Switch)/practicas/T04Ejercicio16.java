@@ -96,5 +96,8 @@ public class T04Ejercicio16 {
     } else
       System.out.println(
           "Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigues que es lo que está pasando por su cabeza.");
+
+    sc.close();
   }
+
 }
