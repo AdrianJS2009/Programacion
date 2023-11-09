@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Explicación del código
+ * 
+ * @author Adrián Jiménez Santiago
+ */
 public class T04Ejercicio15 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // Creamos un objeto Scanner para leer la entrada del teclado.
@@ -48,6 +53,6 @@ public class T04Ejercicio15 {
         System.out.println("Opción no válida"); // Imprimimos un mensaje si el usuario elige una opción no válida.
     }
 
-    scanner.close(); // Cerramos el objeto Scanner para liberar recursos.
+    scanner.close();
   }
 }

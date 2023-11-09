@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Explicación del código
+ * 
+ * @author Adrián Jiménez Santiago
+ */
 public class T04Ejercicio14 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
