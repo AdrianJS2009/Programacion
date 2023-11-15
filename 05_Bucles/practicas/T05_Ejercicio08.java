@@ -8,9 +8,10 @@ import java.util.Scanner;
 public class T05_Ejercicio08 {
 
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.println("Introduce un número:");
-    int numero = scanner.nextInt();
+    int numero = sc.nextInt();
+    sc.close();
 
     for (int i = 1; i <= 10; i++) {
       System.out.println(numero + " x " + i + " = " + (numero * i));
