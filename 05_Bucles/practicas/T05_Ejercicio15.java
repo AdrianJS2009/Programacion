@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class T05_Ejercicio15 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Introduce la base (número real): ");
+    System.out.print("Introduce la base, debe ser un número real: ");
     double base = sc.nextDouble();
-    System.out.print("Introduce el exponente (entero positivo): ");
+    System.out.print("Introduce el exponente entero y positivo: ");
     int exponente = sc.nextInt();
 
     for (int i = 1; i <= exponente; i++) {
