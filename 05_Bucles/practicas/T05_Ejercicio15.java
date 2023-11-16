@@ -1,0 +1,27 @@
+
+/** 
+ * Explica tu código aquí
+ * 
+* @author Adrián Jiménez Santiago
+*/
+import java.util.Scanner;
+
+public class T05_Ejercicio15 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Introduce la base (número real): ");
+    double base = sc.nextDouble();
+    System.out.print("Introduce el exponente (entero positivo): ");
+    int exponente = sc.nextInt();
+
+    for (int i = 1; i <= exponente; i++) {
+      double resultado = 1;
+      for (int j = 1; j <= i; j++) {
+        resultado *= base;
+      }
+      System.out.println(base + " elevado a la " + i + " es igual a " + resultado);
+    }
+
+    sc.close();
+  }
+}
