@@ -12,11 +12,11 @@ public class T05_Ejercicio18 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Introduce el primer número: ");
     int numero1 = sc.nextInt();
-    System.out.print("Introduce el segundo número (distinto al primero): ");
+    System.out.print("Introduce el segundo número, este debe ser distinto del primero: ");
     int numero2 = sc.nextInt();
 
     if (numero1 == numero2) {
-      System.out.println("Los números introducidos son iguales. Deben ser distintos.");
+      System.out.println("Los números introducidos son iguales, deben ser distintos.");
     } else {
       int menor = Math.min(numero1, numero2);
       int mayor = Math.max(numero1, numero2);
