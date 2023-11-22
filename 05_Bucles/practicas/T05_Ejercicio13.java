@@ -17,7 +17,7 @@ public class T05_Ejercicio13 {
       System.out.println("Introduce diez números enteros");
       int numero = sc.nextInt();
 
-      if (numero > 0) {
+      if (numero >= 0) {
         positivos++;
       } else {
         negativos++;
