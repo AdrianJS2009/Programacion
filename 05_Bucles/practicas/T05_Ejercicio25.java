@@ -22,7 +22,7 @@ public class T05_Ejercicio25 {
             numeroAlReves += numeroStr.charAt(i);
         }
 
-        System.out.println("Número al revés: " + numeroAlReves);
+        System.out.println(numero + " al revés es: " + numeroAlReves);
 
         sc.close();
     }

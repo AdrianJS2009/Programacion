@@ -18,7 +18,7 @@ public class T05_Ejercicio34 {
 
     long numeroPares = 0;
     long numeroImpares = 0;
-    long multiplicador = 1; // Con este formaré los número
+    long multiplicador = 1; // Con este formaré los números
 
     while (numero1 > 0 && numero2 > 0) {
       // Así obtengo el último número de cada digito
