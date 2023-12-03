@@ -1,43 +1,46 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Histograma {
+public class T05_EjercicioHistograma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        StringBuilder numeros = new StringBuilder();
+        String numeros = ""; // String vacio para guardarme los números
         int maxNum = 0;
 
         System.out.println("Introduce números entre 0 y 9 (negativo para terminar):");
+
         while (true) {
             try {
                 int num = sc.nextInt();
-                if (num < 0)
-                    break;
+                if (num < 0) {
+                    break; // Salgo del bucle si se introduce un número negativo
+                }
+
                 if (num >= 0 && num <= 9) {
-                    numeros.append(num);
-                    if (num > maxNum)
-                        maxNum = num;
+                    numeros += num; // Añado el número al String numeros
+                    if (num > maxNum) {
+                        maxNum = num; // Aqui actualizo cual es el número máximo para saber como de larga tengo que
+                                      // hacer la tabla
+                    }
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, introduce un número entero válido.");
                 sc.next();
-                continue;
             }
         }
 
-        String numOriginal = numeros.toString();
+        // Aqui leo los números introducidos anteriormete y monto la tabla.
+        for (int i = 0; i < numeros.length(); i++) {
+            int num = Character.getNumericValue(numeros.charAt(i));
 
-        // Bucle inicial para crear la tabla a partir de los números introducidos
-        for (int i = 0; i < numOriginal.length(); i++) {
-            int num = Character.getNumericValue(numOriginal.charAt(i));
-
-            // Imprimir línea divisoria
+            // Primera línea de ---
             for (int j = 0; j < maxNum + 2; j++) {
                 System.out.print("--- ");
             }
             System.out.println();
 
-            // Muestra por pantalla la fila con número y asteriscos correspondientes
+            // Imprimo la fila con el número y asteriscos correspondientes a la longitud del
+            // número
             System.out.print("| \033[33m" + num + "\033[0m |"); // Número en amarillo
             for (int j = 0; j < maxNum; j++) {
                 if (j < num) {
