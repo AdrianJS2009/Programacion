@@ -19,12 +19,13 @@ public class T05_EjercicioHistograma {
                 if (num >= 0 && num <= 9) {
                     numeros += num; // Añado el número al String numeros
                     if (num > maxNum) {
-                        maxNum = num; // Aqui actualizo cual es el número máximo para saber como de larga tengo que
+                        maxNum = num; // Aqui actualizo cual es el número máximo para saber como de ancha tengo que
                                       // hacer la tabla
                     }
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Por favor, introduce un número entero válido.");
+                System.out.println(
+                        "No hagas esto más dificil de lo que ya es, por favor, introduce un número y sin coma.");
                 sc.next();
             }
         }
@@ -62,3 +63,6 @@ public class T05_EjercicioHistograma {
         }
     }
 }
+
+// TODO: Ser capaz de imprimir | al final de cada linea y no solo en el número
+// máximo (quiero morir)
