@@ -3,14 +3,14 @@ import java.util.Scanner;
 
 public class Histograma {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         StringBuilder numeros = new StringBuilder();
         int maxNum = 0;
 
         System.out.println("Introduce números entre 0 y 9 (negativo para terminar):");
         while (true) {
             try {
-                int num = scanner.nextInt();
+                int num = sc.nextInt();
                 if (num < 0)
                     break;
                 if (num >= 0 && num <= 9) {
@@ -20,7 +20,7 @@ public class Histograma {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, introduce un número entero válido.");
-                scanner.next(); // Limpiar el buffer del scanner
+                sc.next();
                 continue;
             }
         }
