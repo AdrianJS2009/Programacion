@@ -1,6 +1,6 @@
 
 /** 
- * Notas Trimestraless
+ * Explica tu código aquí
  * 
 * @author Adrián Jiménez Santiago
 */
@@ -15,6 +15,7 @@ public class Examen01 {
     do {
       System.out
           .println("Introduce el nombre del alumno en el siguiente orden y seguido: Apellido1 Apellido2, Nombre: ");
+
       String nombre = sc.nextLine();
 
       int nota1, nota2, nota3;
@@ -40,6 +41,7 @@ public class Examen01 {
         System.out.print("\033[1m" + nombre.charAt(i) + "\033[0m");
       }
 
+      // Muestro las notas
       System.out.print(" | ");
       if (nota1 < 5) {
         System.out.print("\033[31m\033[1m" + nota1 + "\033[0m");
@@ -61,8 +63,14 @@ public class Examen01 {
         System.out.print("\033[32m\033[1m" + nota3 + "\033[0m");
       }
 
-      System.out.printf(" | \033[1m%.2f\033[0m |\n", notaMedia);
-      System.out.println("--- --- --- --- --- --- --- --- --- ---");
+      // Muestro la nota media en verde o rojo
+      System.out.print(" | ");
+      if (notaMedia < 5) {
+        System.out.printf("\033[31m\033[1m%.2f\033[0m", notaMedia);
+      } else {
+        System.out.printf("\033[32m\033[1m%.2f\033[0m", notaMedia);
+      }
+      System.out.println(" |\n--- --- --- --- --- --- --- --- --- ---");
 
       // Continuo preguntando por otro alumno
       System.out.println("¿Deseas introducir notas de otro alumno? (S/N): ");
