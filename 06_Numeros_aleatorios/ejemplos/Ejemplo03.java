@@ -1,0 +1,16 @@
+/**
+ * Generar numeros entre 0 y 10
+ * 
+ * @author Adrián Jiménez Santiago
+ */
+
+public class Ejemplo03 {
+  public static void main(String[] args) {
+    double numero;
+
+    for (int i = 0; i < 10; i++) {
+      numero = (int) (Math.random() * 10);
+      System.out.println(numero);
+    }
+  }
+}
