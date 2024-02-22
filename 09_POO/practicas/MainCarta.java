@@ -6,7 +6,6 @@
 */
 
 import java.util.ArrayList;
-
 public class MainCarta {
 
   private static boolean contieneCarta(ArrayList<Carta> baraja, Carta nuevaCarta) {
